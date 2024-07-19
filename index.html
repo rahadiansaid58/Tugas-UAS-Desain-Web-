@@ -1,0 +1,231 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIN 2 NGANJUK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background-image :url(sekolah.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .feature-card {
+            transition: transform 0.3s;
+        }
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+        .testimonial {
+            background: #e9ecf0;
+            border-left: 5px solid #5e2606;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .event-card {
+            transition: box-shadow 0.3s;
+        }
+        .event-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MIN 2 NGANJUK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galery.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn bg-warning me-2" type="button"><a href="ppdb.html">PPDB</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section p-5 rounded-lg m-3 text-center">
+        <h1 class="display-4">Selamat Datang di MIN 2 NGANJUK</h1>
+        <p class="lead">Pendidikan berkualitas dengan mutu dan fasilitas yang terjamin.</p>
+        <hr class="my-4">
+        <p>Tidak hanya berfokus pada akademik saja,disini peserta didik akan diarahkan untuk mencari soft skill dan bakat yang masih terpendam.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Pelajari lebih lanjut</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="">Tentang Kami</h2>
+                <p>MIN 2 NGANJUK </p>
+            </div>
+            <div class="col-md-6">
+                <video src="Video Cinematic Profil Sekolah SD_MI.mp4" class="img-fluid" controls></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Keunggulan Kami</h2>
+        <div class="row text-center">
+            <!-- Feature 1 -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="perpustakaan.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Perpustakan </h5>
+                        <p class="card-text">Dilengkapi dengan perpustakaan agar peserta didik tidak bosan dan dapat mencari dan menggali wawasan yang lebih luas lagi .</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="guru profesional.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Guru Profesional</h5>
+                        <p class="card-text">Tenaga pengajar dan pendidik disini pastinya yang kompeten ,tlaten dan berpengalaman di bidangnya.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-lg-4 mb-3">
+                <div class="card feature-card">
+                    <img src="sponsor.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">sponsor</h5>
+                        <p class="card-text">Di lembaga kami sudah banyak memiliki relasi dan sponsor yang mendukung setiap kegiatan dan agenda di sini  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a class="btn btn-primary" href="keunggulan.html">Lihat Lebih Banyak</a>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Testimoni Alumni</h2>
+        <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <blockquote class="testimonial">
+                        <p class="mb-0">"Pendidikan di MIN 2 NGANJUK 9 tahun silam telah membawa banyak perubahan di hidup saya,saya mulai menemukan bakat dan skill saya,dulu saya selalu dibimbing dan diarahkan mau dikemanakan skill yang saya punya,akhirnya alhamdulillah sampai sekarang ilmu ini berguna bagi saya"</p>
+                        <br>
+                        <footer class="blockquote-footer">Alumni 1, <cite title="Source Title">Alumni berprestasi di bidang pidato dan olimpiade</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="carousel-item">
+                    <blockquote class="testimonial">
+                        <p class="mb-0">"dulu saya termasuk anak yang bandel dan susah diatur,namun dengan keltatenan guru memarahi saya dan sabar dalam mendidik saya alhamdulillah saya lulus dengan nilai yang memuaskan ."</p>
+                        <br>
+                        <footer class="blockquote-footer">Alumni 2, <cite title="Source Title">Alumni kelas reguler</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialsCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialsCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Upcoming Events Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Kegiatan Rutin</h2>
+        <div class="row">
+            <!-- Event 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card event-card">
+                    <img src="upacara.jpeg" class="card-img-top" alt="Event 1">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text">Upacara bendera untuk melatih kedisiplinan dan menghormati perjuangan para pahlawan .</p>
+                        <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Event 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card event-card">
+                    <img src="kebersihan.jpeg" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Lomba kebersihan kelas</h5>
+                        <p class="card-text">lomba yang melatih siswa untuk selalu menanamkan cinta kebersihan lingkungan .</p>
+                        <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+             <!-- Event 3 -->
+             <div class="col-md-4 mb-3">
+                <div class="card event-card">
+                    <img src="agustusan.jpeg" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Lomba Agustusan</h5>
+                        <p class="card-text">kegiatan dalam memeriahkan HUT RI </p>
+                        <a href="#" class="btn btn-primary">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="kontak" class="container my-5">
+        <h2 class="text-center mb-4">Kontak Kami</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan Anda di sini"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
